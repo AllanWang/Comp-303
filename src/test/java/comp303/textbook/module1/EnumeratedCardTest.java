@@ -13,9 +13,7 @@ public class EnumeratedCardTest {
     public void test() {
         assertEquals(ACE_SPADES.suit, Suit.SPADES);
         assertEquals(ACE_SPADES.rank, Rank.ACE);
-
         assertEquals(FOUR_DIAMONDS.suit, Suit.DIAMONDS);
-
         assertNotEquals(TEN_CLUBS.rank, Rank.NINE);
         assertEquals(ACE_CLUBS, ACE_CLUBS);
         System.out.println("Suits & Rankings passed");
