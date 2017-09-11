@@ -25,13 +25,4 @@ public enum EnumeratedCard {
         suit = Suit.valueOf(data[1]);
     }
 
-    public enum Suit {
-        SPADES, HEARTS, CLUBS, DIAMONDS
-    }
-
-    public enum Rank {
-        ACE, TWO, THREE, FOUR, FIVE, SIX,
-        SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING;
-    }
-
 }
